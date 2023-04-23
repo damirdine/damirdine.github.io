@@ -3,9 +3,9 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://damirdine.github.io",
   author: "Damirdine ALI SOILIHI",
-  desc: "A damirdine minimal, personal website",
+  desc: "I'm Damirdine, a developer with a passion for technology and a curious mind always looking to discover new things",
   title: "damirdine.as",
-  ogImage: "damirdine-as.png",
+  ogImage: "favicon.png",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
