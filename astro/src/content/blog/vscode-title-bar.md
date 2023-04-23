@@ -31,11 +31,11 @@ Voici un avant/après pour illustrer la différence :
 
 Avant :
 
-<img src="/assets/vscode-title-bar-before.png" alt="vscode title bar before">
+<img src="/assets/vscode-titlebar-before.png" alt="vscode title bar before">
 
 Après :
 
-<img src="/assets/vscode-title-bar-after.png" alt="vscode title bar after">
+<img src="/assets/vscode-titlebar-after.png" alt="vscode title bar after">
 
 </details>
 
@@ -53,7 +53,7 @@ Here is a before/after to illustrate the difference:
 
 Before:
 
-<img src="/assets/vscode-title-bar-before.png" alt="vscode title bar before">
+<img src="/assets/vscode-titlebar-before.png" alt="vscode title bar before">
 After:
 
-![After](vscode-title-bar-after.png)
+<img src="/assets/vscode-titlebar-after.png" alt="vscode title bar before">
