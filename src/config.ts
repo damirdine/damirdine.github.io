@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Damirdine ALI SOILIHI",
   desc: "A damirdine minimal, personal website",
   title: "damirdine.as",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "damirdine-as.png",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
