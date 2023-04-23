@@ -24,7 +24,7 @@ Here are some of the technologies I've worked with:
 - **Tools**: _Git, Docker, Visual Studio Code, GitHub_
 
 In my current training, I'm learning to _develop mobile apps using Flutter_, and I'm also continuing to educate myself on _software design principles_.
-Currently, I am exploring Keycloak, an open-source identity and access management system.
+Currently, I am exploring Keycloak, an open-source identity and access management system.I hope this will help me to have s better management of authentication and authorization in the future.
 
 Feel free to reach out if you'd like to discuss any of these technologies or if you have any questions!
 
