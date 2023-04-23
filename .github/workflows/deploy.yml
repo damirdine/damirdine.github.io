@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy Astro to GitHub Pages
 
 on:
   push:
@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          node-version: "18.x"
       - name: Install dependencies
         run: cd astro && npm install
       - name: Build Astro site
