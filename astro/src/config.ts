@@ -1,7 +1,7 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "damirdine.github.io",
+  website: "https://damirdine.github.io",
   author: "Damirdine ALI SOILIHI",
   desc: "A damirdine minimal, personal website",
   title: "damirdine.as",
@@ -21,12 +21,6 @@ export const LOGO_IMAGE = {
 
 export const SOCIALS: SocialObjects = [
   {
-    name: "Github",
-    href: "https://github.com/damirdine",
-    linkTitle: ` ${SITE.title} on Github`,
-    active: true,
-  },
-  {
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Facebook`,
@@ -40,19 +34,25 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/damirdine/",
+    href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:damirdine@outlook.fr",
     linkTitle: `Send an email to ${SITE.title}`,
-    active: false,
+    active: true,
+  },
+  {
+    name: "Github",
+    href: "https://github.com/satnaing/astro-paper",
+    linkTitle: ` ${SITE.title} on Github`,
+    active: true,
   },
   {
     name: "Twitter",
-    href: "https://twitter.com/damirdine_",
+    href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Twitter`,
     active: true,
   },
@@ -96,7 +96,7 @@ export const SOCIALS: SocialObjects = [
     name: "CodePen",
     href: "https://codepen.io/damirdine/",
     linkTitle: `${SITE.title} on CodePen`,
-    active: true,
+    active: false,
   },
   {
     name: "Discord",

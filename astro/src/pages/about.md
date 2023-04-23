@@ -37,3 +37,5 @@ Here are certain features of this site.
 - link to [Github](https://github.com/satnaing/astro-paper)
   If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
   Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+
+Thank you for taking the time to read about me! 🙏🏾
