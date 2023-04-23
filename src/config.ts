@@ -34,7 +34,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "LinkedIn",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.linkedin.com/in/damirdine/",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
@@ -46,13 +46,13 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/damirdine",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
   {
     name: "Twitter",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://twitter.com/damirdine_",
     linkTitle: `${SITE.title} on Twitter`,
     active: true,
   },
@@ -112,7 +112,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Reddit",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/damirdine",
     linkTitle: `${SITE.title} on Reddit`,
     active: false,
   },
