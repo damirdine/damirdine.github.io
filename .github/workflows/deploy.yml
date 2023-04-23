@@ -1,4 +1,4 @@
-name: Deploy Astro to GitHub Pages
+name: Deploy Astro.js to GitHub Pages
 
 on:
   push:
@@ -6,19 +6,24 @@ on:
       - main
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
         with:
-          node-version: "18.x"
+          node-version: "16"
       - name: Install dependencies
-        run: cd astro && npm install
-      - name: Build Astro site
+        run: cd astro && npm ci
+      - name: Build site
         run: npm run build
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy site
+        uses: JamesIves/github-pages-deploy-action@4.1.2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./astro/public
+          branch: gh-pages
+          folder: ./public
+          clean: true
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
